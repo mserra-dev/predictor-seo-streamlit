@@ -18,7 +18,7 @@ st.title("📈 Predictor de Métricas SEO con Prophet")
 # --- CONFIGURACIÓN DE OAUTH (MODIFICADO PARA LEER DESDE ST.SECRETS) ---
 CLIENT_ID = st.secrets["google_credentials"]["CLIENT_ID"]
 CLIENT_SECRET = st.secrets["google_credentials"]["CLIENT_SECRET"]
-REDIRECT_URI = "http://localhost:8501"  # No cambies esto aquí
+REDIRECT_URI = "https://predictor-seo-prophet.streamlit.app"
 SCOPES = ["https://www.googleapis.com/auth/webmasters.readonly"]
 
 
